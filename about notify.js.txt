@@ -1,0 +1,16 @@
+notify.js, a New JavaScript Library
+
+created by rudra pratap singh
+
+Why notify.js?
+
+notify.js is lightweight javascript library used for interactive,cool,and responsive alert cum notification boxes.
+The notify() function take a maximum of 9 arguments.
+Title, Message, Direction, Type, bgColor, textColor, btnColor, btnText and opacity are the attributes.
+
+
+Basic Alert
+notify(" your message"); 
+
+Custom Alert
+notify('title','message','direction','type','bgColor','textColor','buttonColor','buttonText','opacity');

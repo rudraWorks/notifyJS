@@ -1,0 +1,83 @@
+body{
+	
+	background:skyblue;
+    margin:0;
+}
+
+#menu{
+	position:absolute;
+	top:0;
+	left:0;
+	height:80px;
+	width:100%;
+	background:black;
+	color:white;
+}
+
+#docs,#home,#download{
+	
+	display:inline-block;
+	font-size:20px;
+	position:relative;
+	top:-20px;
+}
+
+#docs{
+	position:relative;
+	left:20%;
+}
+
+#home{
+	position:relative;
+	left:5%;
+	
+}
+#download{
+	position:relative;
+	left:35%;
+	
+}
+
+#home:hover{cursor:pointer;color:yellow;}
+
+#docs:hover{cursor:pointer;color:yellow;}
+#download:hover{cursor:pointer;color:yellow;}
+
+
+#main{
+font-weight:bold;
+font-size:36px;
+color:navy;}
+
+#que{
+	font-weight:200;
+	margin-left:30px;
+}
+p{
+	margin-left:50px;
+	font-size:20px;
+	color:navy;
+}
+
+#code{
+	background:#061639;
+	color:black;
+	width:50%;
+	height:60px;
+	padding-left:10px;
+	padding-top:10px;
+	overflow-x:scroll;
+}
+
+span{
+	color:magenta;
+}
+#in{
+	color:yellow;
+}
+a{text-decoration:none;color:white;}
+a:hover{color:yellow;}
+
+
+
+

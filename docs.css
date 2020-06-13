@@ -1,0 +1,98 @@
+body{margin:0;
+background:rgb(70,230,160);
+
+}
+
+#menu{
+	position:absolute;
+	top:0;
+	left:0;
+	height:80px;
+	width:100%;
+	background:black;
+	color:white;
+	
+}
+
+#docs,#home,#download{
+	
+	display:inline-block;
+	font-size:20px;
+	position:relative;
+	top:-20px;
+}
+
+#docs{
+	position:relative;
+	left:20%;
+}
+
+#home{
+	position:relative;
+	left:5%;
+	
+}
+#download{
+	position:relative;
+	left:35%;
+	
+}
+
+#home:hover{cursor:pointer;color:yellow;}
+
+#docs:hover{cursor:pointer;color:yellow;}
+#download:hover{cursor:pointer;color:yellow;}
+a{text-decoration:none;color:white;}
+a:hover{color:yellow;}
+
+p{
+	margin-left:25px;
+	font-size:26px;
+	
+	color:navy;
+}
+
+li{font-size:30px;font-weight:300;color:black;}
+ol{margin-left:10px;}
+
+#code{
+	background:#061639;
+	color:black;
+	width:80%;
+	height:70px;
+	padding-left:10px;
+	padding-top:10px;
+	overflow-x:scroll;
+	font-size:20px;
+}
+
+span{
+	color:magenta;
+}
+#in{
+	color:yellow;
+}
+
+button{
+	width:60px;
+	height:30px;
+	font-size:20px;
+	text-align:center;
+	outline:none;
+	user-select:none;
+	position:relative;
+	left:40%;
+	border-radius:10px;
+	
+}
+
+h5{font-size:20px;color:navy;}
+h2{
+	font-weight:200;
+}
+
+
+
+
+
+

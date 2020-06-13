@@ -1,0 +1,136 @@
+
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1"/>
+<script src="notify.js"></script>
+<link href="docs.css" rel="stylesheet" type="text/css"></link>
+
+</head>
+
+
+<div id="menu">
+
+<div id="home"><a href="index.html">Home</a></div>
+<div id="docs"><br><br><a href="docs.html">Docs</a></div>
+<div id="download"><a href="https://www.dropbox.com/s/w192k5pielh3ne7/notifyJS.zip?dl=1">Download</a></div>
+</div>
+
+<br><br><br><br><br><br>
+<p>The notify() function take a maximum of 9 arguments.
+Title, Message, Direction, Type, bgColor, textColor, btnColor, btnText and opacity are the attributes.</p>
+
+<br><br>
+<ol>
+<li>Title
+<p id="code"><span>notify</span><span id="in">('i am title');</span></p>
+<button onclick="notify('i am title')">try</button>
+
+
+</li>
+<br>
+<li>Message
+<p id="code"><span>notify</span><span id="in">('i am title','this is message');</span></p>
+<button onclick="notify('i am title','this is message')">try</button>
+
+</li>
+<br>
+<li>Direction
+<p id="code"><span>notify</span><span id="in">('i came from left direction','this is message','left');</span></p>
+<button onclick="notify('i came from left direction','this is message','left')">try</button>
+
+<p id="code"><span>notify</span><span id="in">('i came from right direction','this is message','right');</span></p>
+<button onclick="notify('i came from right direction','this is message','right')">try</button>
+
+<p id="code"><span>notify</span><span id="in">('i came from top direction','this is message','top');</span></p>
+<button onclick="notify('i came from top direction','this is message','top')">try</button>
+
+<p id="code"><span>notify</span><span id="in">('i came from bottom direction','this is message','bottom');</span></p>
+<button onclick="notify('i came from bottom direction','this is message','bottom')">try</button>
+<h5> the default value of direction is top</h5> 
+</li>
+<br>
+<li>type
+
+<p id="code"><span>notify</span><span id="in">('title','','','message');</span></p>
+<button onclick="notify('title','','','message')">try</button>
+
+<p id="code"><span>notify</span><span id="in">('title','','','danger');</span></p>
+<button onclick="notify('title','','','danger')">try</button>
+
+<p id="code"><span>notify</span><span id="in">('title','','','alert');</span></p>
+<button onclick="notify('title','','','alert')">try</button>
+
+<p id="code"><span>notify</span><span id="in">('title','','','success');</span></p>
+<button onclick="notify('title','','','success')">try</button>
+
+
+<p id="code"><span>notify</span><span id="in">('title','','','');</span></p>
+<button onclick="notify('title','','','')">try</button>
+
+<h5>the default value of type is '' ; that is empty</h5>
+
+</li>
+<br>
+<li> bgColor
+
+<p id="code"><span>notify</span><span id="in">('title','green','left','message','grey');</span></p>
+<button onclick="notify('title','grey','left','message','grey')">try</button>
+
+<p id="code"><span>notify</span><span id="in">('title','green','left','message','pink');</span></p>
+<button onclick="notify('title','pink','left','message','pink')">try</button>
+
+<p id="code"><span>notify</span><span id="in">('title','orange','left','message','orange');</span></p>
+<button onclick="notify('title','orange','left','message','orange')">try</button>
+
+<p id="code"><span>notify</span><span id="in">('title','default','left','message','');</span></p>
+<button onclick="notify('title','default','left','message','')">try</button>
+
+<h5>the default value of bgColor is white</h5>
+
+</li>
+<br>
+<li>textColor
+
+<p id="code"><span>notify</span><span id="in">('title','text text text text text','left','message','tomato','blue');</span></p>
+<button onclick="notify('title','text text text text text','left','message','tomato','blue')">try</button>
+<h5>the default value of textColor is white</h5>
+</li>
+<br>
+<li>btnColor
+<p id="code"><span>notify</span><span id="in">('title','text text','left','success','','blue','red');</span></p>
+<button onclick="notify('title','text text','left','success','','blue','red')">try</button>
+<h5>the default value of btnColor is skyblue</h5>
+
+</li>
+<br>
+<li>btnText
+
+<p id="code"><span>notify</span><span id="in">('title','text text','left','success','','blue','red','exit');</span></p>
+<button onclick="notify('title','text text','left','success','','blue','red','exit')">try</button>
+<h5>the default value of btnText is 'ok'</h5>
+</li>
+<br>
+
+<li>opacity
+
+<p id="code"><span>notify</span><span id="in">('title','text text','left','success','pink','blue','red','exit','.5');</span></p>
+<button onclick="notify('title','text text','left','success','pink','blue','red','exit','.5')">try</button>
+<h5>the default value of opacity is 1</h5>
+
+</li>
+</ol>
+<hr style="border-color:black">
+<h2 style="text-align:center"> To use default value of a parameter, just use '' (empty quotes). <br>For example to just change the alert box bgcolor, use <span style="background:#061639">&nbsp;&nbsp;notify</span><span style="background:#061639" id="in">('','','','','red','','','','');&nbsp;&nbsp;</span></h2>
+<hr style="border-color:black">
+
+
+<br><center style="color:blue;"><h4>copyright 2020 notify.js <br>all rights reserved</h4></center>
+
+
+
+
+
+
+
+
